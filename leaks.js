@@ -37,3 +37,22 @@ function outer() {
         return new Array(10000).join("x");
     }
 }
+
+
+
+function Person() {
+    var temp1 = new Array(10000).join("x");
+    this.show = function () {
+        return temp1;
+    }
+}
+
+var resObj = new Person();
+
+document.getElementById('container').addEventListener(function () {
+    resObj.show();
+});
+
+//Garbage collector will never release resObj
+
+//One of the possible way is to un-subscribe the event

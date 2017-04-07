@@ -12,7 +12,7 @@ function outer() {
     };
 
     return function () {
-        console.log(res.temp1);
+        return res.temp1;
         //Since we are accessing temp1, but still in memory it's holding reference to complete res object
         //This is memory leaks, we need to handle such scenerio
 
@@ -34,6 +34,6 @@ function outer() {
 
     //One of possible way to re-write this function:
     return function () {
-        console.log(new Array(10000).join("x"));
+        return new Array(10000).join("x");
     }
 }

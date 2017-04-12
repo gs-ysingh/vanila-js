@@ -11,8 +11,6 @@ document.getElementById("btn").addEventListener("click", function () {
 
 $('p').click(function (evt) {
     evt.stopPropagation(); //Stops handler of parent to execute
-
     evt.stopImmediatePropagation(); //Stops any other handler to execute if it's attached to parent or any other element
-
 });
 

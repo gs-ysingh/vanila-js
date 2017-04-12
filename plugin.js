@@ -9,7 +9,7 @@ var lib = (function () {
 
     //prototype method available to all the instances
     autoComplete.prototype.show = function () {
-
+        console.log(this.config.data);
     }
 
     return {

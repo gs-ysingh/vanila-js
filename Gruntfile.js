@@ -5,8 +5,10 @@ module.exports = function (grunt) {
         console.log("Speak Yogesh!");
     });
 
-    //Runs when you run just grunt
-    grunt.registerTask('default', function () {
-       console.log("Hello Yogesh Singh!");
+    grunt.registerTask('run', function () {
+        console.log("Run Yogesh!");
     });
+
+    //Runs when you run just grunt
+    grunt.registerTask('default', ['speak', 'run']);
 }

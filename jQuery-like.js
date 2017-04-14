@@ -1,3 +1,11 @@
+//Things to handle
+
+//Can add multiple times on page
+//Exception handling
+//More configuration, if configuration is not passed
+//performance and scalability
+
+
 var $ = (function () {
 	var jQuery = function(selector) {
 		return new init(selector);

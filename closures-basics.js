@@ -114,3 +114,12 @@ for(var i = 0; i < 3; i++) {
 a[0]();
 a[1]();
 a[2]();
+
+
+for(var i = 1; i <= 5; i++) {
+    (function (i) {
+        setTimeout(function () {
+            console.log(i);
+        }, 1000*i);
+    })(i);
+}

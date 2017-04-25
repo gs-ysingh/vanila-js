@@ -4,7 +4,7 @@
 
 
 Function.prototype.bind = function() {
-    var arg = Array.prototype.slice.call(arguments); //[].slice.call(arguments);
+    var arg = [].slice.call(arguments);
     var that = arg[0];
     var items = arg.slice(1);
     var self = this;

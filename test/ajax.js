@@ -7,7 +7,7 @@ var chaiHttp = require('chai-http');
 var server = 'https://api.github.com';
 
 chai.use(chaiHttp);
-
+//how to use events in ajax
 describe('ajax', function () {
     describe('get', function () {
         it('return response', function (done) {

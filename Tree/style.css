@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+}
+
+li:before {
+    margin-right: 4px;
+}
+
+li.leaf:before {
+    content: "";
+}
+li.collapse:before {
+    content: "+";
+}
+li.expand:before {
+    content: "-";
+}
+
+li.collapse > ul {
+    display: none;
+}
+
+li.expand > ul {
+    display: block;
+}

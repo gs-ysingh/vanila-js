@@ -55,11 +55,9 @@ var lib = (function() {
     }
 
     filterList.prototype.getDefaultConfig = function() {
-        //default configuration for the component
     }
     function validate(options) {
         return true;
-        //all the validation for the options
     }
     return {
         filterList: getInstanceOfFilterList

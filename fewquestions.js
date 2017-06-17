@@ -27,4 +27,13 @@ for(var i = 1; i < 5; i++) {
 
 //What is the use of new keyword and what it does
 
-//
+//Inheritence
+
+//closure
+
+//Event delegation
+
+//Event loops
+
+//Design patterns
+

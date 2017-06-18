@@ -20,14 +20,13 @@ for(var i = 1; i < 5; i++) {
     setTimeout(function () {
         console.log(i);
     }, 1000*i);
-
 }
 
 //sum(5)(2)
 
 //What is the use of new keyword and what it does
 
-//Inheritence
+//Inheritance
 
 //closure
 

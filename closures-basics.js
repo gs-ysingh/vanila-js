@@ -1,7 +1,7 @@
 /*
-
  Scope Chain: A function has access to it's own scope, plus scope of it's parent
  Lexical Scope: Function creates scope or environment when it's defined, not when it's executed.
+ */
 
 function f1() {
     var a = 10;
@@ -13,8 +13,6 @@ function f2() {
 }
 
 f2() //a is not defined
-
-*/
 
 //Example of lexical scope: inner function is not closures since it's not in global space. But, it creates scope
 //chain when it was defined and have access to m variable

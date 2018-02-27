@@ -1,8 +1,3 @@
-/**
- * Created by YSingh on 02/06/17.
- */
-
-
 var lib = (function() {
 
     function filterList(options) {

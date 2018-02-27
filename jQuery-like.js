@@ -9,12 +9,12 @@
 var $ = (function () {
 	var jQuery = function(selector) {
 		return new init(selector);
-	}	
+	}
 
 	//constructor
 	function init(selector) {
 		var elements;
-		
+
 		if(typeof selector == "string") {
 			elements = document.querySelectorAll(selector);
 		}
@@ -35,7 +35,6 @@ var $ = (function () {
 	}
 
 	//Adding method to constructor's prototype
-	
 	init.prototype = {
 		//$('.avatar').map(function(item, index) {return item.src || ""; } )
 		map: function(callback) {
@@ -47,7 +46,7 @@ var $ = (function () {
 		},
 		forEach: function(callback) {
 			this.map(callback);
-			return this; 
+			return this;
 			//forEach need to just call map but to implement chaining we can return this
 		},
 		text: function(text) {
@@ -80,7 +79,7 @@ var $ = (function () {
 				});
 			}
 		})()
-	} 
+	}
 
-	return jQuery;	
+	return jQuery;
 })();

@@ -1,0 +1,36 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.leftNav {
+  float: left;
+  width: 300px;
+}
+
+.rightNav {
+  float: right;
+}
+
+input, button, select {
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  font-size: 12px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: #FFF;
+}
+
+.records {
+  float: left;
+}
+
+.topNav {
+	height: 50px;
+}
+
+.row, form {
+	margin-bottom: 20px;
+}

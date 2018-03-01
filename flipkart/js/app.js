@@ -1,0 +1,3 @@
+lib.creditCard({
+	element: '.container'
+});

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <h1>Flight Search Engine</h1>
+  <div class="container">
+    <div class="leftNav">
+      <div>One way</div>
+      <form>
+        <input type="text" placeholder="Enter Origin City" name="origin" id="origin"/><br>
+        <input type="text" placeholder="Enter Destination City" name="destination" id="destination"/><br>
+        <input type="text" placeholder="Enter the date" name="datepicker" id="datepicker"/><br>
+        <select name="passenger">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+        </select>
+        <button type="button" class="submit">Search</button>
+      </form>
+      <div>Refine flight search</div>
+      <div id="slider"></div>
+      <input type="text" value="10000" id="fare"/>
+    </div>
+    <div class="records">
+    </div>
+  </div>
+</body>
+<script src="js/lib.js"></script>
+</html>

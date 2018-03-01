@@ -1,0 +1,49 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.cardNumber, .cvv {
+	display: block;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.expiry {
+	float: left;
+	margin-top: 10px;
+}
+
+.submit {
+	width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    background: green;
+    color: #FFF;
+}
+
+select {
+    width: 50px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.first {
+	margin-top: 20px;
+}
+
+.second {
+	margin-top: 20px;
+}
+
+.cardError, .cvvError {
+	color: red;
+}

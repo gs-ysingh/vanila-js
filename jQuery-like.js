@@ -18,10 +18,10 @@ var $ = (function () {
 		if(typeof selector == "string") {
 			elements = document.querySelectorAll(selector);
 		}
-		else if(selector.length) {
+		else if(selector.length) { //[div#id] - element
 			elements = selector;
 		}
-		else {
+		else { // div#id
 			elements = [selector];
 		}
 

@@ -17,3 +17,18 @@ var resize = debounce(function() {
 }, 500);
 
 window.addEventListener('resize', resize);
+
+
+//This version should also work!
+
+function debounce(func, wait) {
+  var time = null;
+  return function() {
+    clearInterval(time);
+    time = setTimeout(func.bind(this, Array.prototype.slice.apply(arguments)), wait);
+  }
+};
+
+var resize = debounce(function() {
+    console.log('Hello');
+}, 2000);

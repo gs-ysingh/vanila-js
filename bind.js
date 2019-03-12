@@ -24,3 +24,7 @@ Function.prototype.bind = function () {
 var caller = sum.bind(this, 1, 2, 3);
 caller();
 
+
+
+
+

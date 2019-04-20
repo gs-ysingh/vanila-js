@@ -1,0 +1,20 @@
+span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #2a2a2a;
+  text-align: center;
+}
+
+.inactive {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.available {
+  background-color: #FFF;
+}
+
+.unavailable {
+  background-color: silver;
+}

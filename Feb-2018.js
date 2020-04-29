@@ -5,3 +5,6 @@ if(typeof Object.create !== 'function') {
 		return new Fun();
 	}
 }
+
+
+
